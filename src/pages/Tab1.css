@@ -1,0 +1,21 @@
+.container {
+    text-align: left;
+    left: 20px;
+    right: 0;
+    top: 50px;
+    font-weight: 700;
+    font-size: xx-large;
+
+  }
+.textLegend {
+    position: relative;
+    text-align: left;
+    left: 20px;
+    right: 0;
+    top: 90px;
+    font-weight: 500;
+    font-size: medium;
+    
+}
+
+  
