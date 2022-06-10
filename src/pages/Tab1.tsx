@@ -21,6 +21,7 @@ const Tab1: React.FC = () => {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  
   useEffect(() => {
     const getWeather = async () => {
       setIsLoading(true);
@@ -45,8 +46,9 @@ const Tab1: React.FC = () => {
   }, []);
 
   const getWeatherData = async () => {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=Benidorm,es&appid=${apikey}`);
+    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=Benidorm,es&appid=${apikey}&units=metric`);
     const data = await response.json();
+    console.log(data)
     return data;
   }
 
