@@ -1,0 +1,7 @@
+{
+  "name": "Control Pool",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
